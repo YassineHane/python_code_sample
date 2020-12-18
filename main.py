@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 CURRENT_DIR = os.path.dirname(__file__)
 URL ='https://fr.openfoodfacts.org/produit/'
 SOURCE = CURRENT_DIR + '\\input\\View_Auchan_Simpliste_20200519.json'
-OUTPUT = CURRENT_DIR + '\\output.txt'
+OUTPUT = CURRENT_DIR + '\\output\\output.txt'
 
 
 with open(SOURCE , 'r', encoding='utf8') as f:
